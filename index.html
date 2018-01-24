@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile</title>
+    <link rel="stylesheet" href="prcss.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+
+    </nav>
+    <img onmouseover="imageBig(this)" onmouseout="imageSml(this)" src="teddy.jpg" alt="teddy bear">
+    <h1>Teddy Bear</h1>
+    <p>I'm a doll!!!!!!!!!!!!!</p>
+    <a href="#">Color</a>
+    <a href="#">Size</a>
+    <a href="#">Style</a>
+    <script>
+        function imageBig(x)
+        {
+            x.style.height="200px";
+            x.style.width="200px";
+        }
+        function imageSml(y)
+        {
+            y.style.height="100px";
+            y.style.width="100px";
+        }
+    </script>
+</body>
+</html>
